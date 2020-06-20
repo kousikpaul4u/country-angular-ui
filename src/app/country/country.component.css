@@ -1,0 +1,33 @@
+.card-title.title {
+    color: #3c8aec;
+}
+
+#country-capital {
+    font-weight: bold;
+}
+
+#country-population {
+    float: right;
+}
+
+.title {
+    display: inline;
+}
+
+#country-name {
+    font-size: x-large;
+    font-weight: bold;
+    float: left;
+}
+
+#country-population-label {
+    float: right;
+    color: grey;
+    margin-top: 5px;
+}
+
+input {
+    width: 30rem;
+    margin-bottom: 5px;
+    height: 40px;
+}

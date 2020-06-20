@@ -1,0 +1,36 @@
+<div>
+    <div>
+        <input [(ngModel)]="query" placeholder="Search by country name..." />
+    </div>
+    <div *ngFor="let country of countries | search:'name':query">
+        <div class="card" style="width: 30rem; margin-bottom: 5px">
+            <div class="card-body">
+                <div class="title">
+                    <div id="country-name" class="card-title title">{{country.name}}</div>
+                    <span id="country-population-label">population</span>
+                </div>
+                <table width="100%">
+                    <tbody>
+                        <tr width="100%">
+                            <td>
+                                <table>
+                                    <tr>
+                                        <td>
+                                            <span id="country-capital" class="card-text">{{country.capital}},</span>
+                                        </td>
+                                        <td>
+                                            <span id="country-subregion" class="card-text">{{country.subregion}}</span>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                            <td>
+                                <p id="country-population" class="card-text">{{country.population | number}}</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

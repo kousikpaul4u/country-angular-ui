@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "employee-angular-ui"
+    }
+  },
+  "defaultProject": "employee-angular-ui",
+  "cli": {
+    "analytics": "4ec631b1-d3f7-4f63-be52-2f1aad8bad5c"
+  }
 }
