@@ -1,6 +1,6 @@
 <div>
     <div>
-        <input [(ngModel)]="query" placeholder="Search by country name..." />
+        <input id="search-textbox" [(ngModel)]="query" placeholder="Search by country name..." />
     </div>
     <div *ngFor="let country of countries | search:'name':query">
         <div class="card" style="width: 30rem; margin-bottom: 5px">
