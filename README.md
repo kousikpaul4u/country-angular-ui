@@ -11,7 +11,7 @@
   ```
   npm install
   ```
-  - **Run development server, Navigate to `http://localhost:4200/**
+  - **Run development server, Navigate to `http://localhost:4200/`**
   ```
   ng serve
   ```
